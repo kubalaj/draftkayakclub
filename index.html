@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+		<title>University of Colorado Kayak Club</title>
+
+	   	<!-- bjqs.css contains the *essential* css needed for the slider to work -->
+	    <link rel="stylesheet" href="bjqs.css">
+	    <link rel="stylesheet" href="demo.css">
+
+	 <!-- load jQuery and the plugin -->
+	    <script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+	    <script src="js/bjqs-1.3.min.js"></script>
+	</head>
+	
+	<body>
+		<table align="center">
+		<tr>
+			<td>
+				<table>
+					<tr>
+						<td>
+		<div id="navigation">
+			<a href"#">Home</a>
+			<a href"#">Pictures</a>
+			<a href"#">Updates</a>
+			<a href"#">Competitions</a>
+			<a href"#">Officers</a>
+			<a href"#">Contact Us</a>
+		</div>
+	
+		
+				<div align="center">
+    			<!--  Outer wrapper for presentation only, this can be anything you like -->
+      			<div id="banner-fade">
+
+        		<!-- start Basic Jquery Slider -->
+        		<ul class="bjqs">
+          			<li><img src="img/IMG_8348.jpg" title="New Pool Session Times"></li>
+          			<li><img src="img/IMG_9040.jpg" title="See the New Pictures"></li>
+          			<li><img src="img/IMG_9794.jpg" title="Upcoming Trips!"></li>
+        		</ul>
+        		<!-- end Basic jQuery Slider -->
+      			</div>
+      		</div>
+			</td>
+			</tr>
+			<tr>
+				<td align="center" id="About">
+					<div id="About">
+					<h2>About</h2>
+					<p>Due to its mountainous nature, Colorado is one of North America&#39;s premiere kayaking destinations. CU students of all skill levels can join and be a part of this exciting sport. Beginners can come and learn basic bracing and rolling technique from well-versed instructors while more advanced boaters can come practice their favorite flatwater tricks at our pool sessions. Our trips vary from afternoon hucks down your favorite local creek to multi-day, raft supported expeditions. We can provide all necessary gear for up to 10 people although many people bring their own. At its core, whitewater kayaking is a non-competitive sport, but several of our members are training in slalom and freestyle boating with the hopes of competing at the local and national levels. </p>
+				</div>
+				</td>
+			</tr>
+			<tr>
+				<td align="center" id="About">
+				<h2>How do I Join</h2>
+				<p>
+					Joining is as simple as attending one Roll Session which is held from 7&ndash;10pm at the Claire Small Pool. Membership fee is $50, in the fall and $35 in the spring and Kayak Club is open to people of all skill levels and provides an environment for people to get together with others of the same interest for the love of kayaking and the outdoors. </p>
+				</td>
+			</tr>
+			</table>
+
+      			<!-- End outer wrapper -->
+  				</td>
+  				<td width="10px">
+  				<div id="flows">
+      			<p>River Flows</p>
+      			</div>
+  				</td>
+  			</tr>
+		</table>
+      <script class="secret-source">
+        jQuery(document).ready(function($) {
+
+          $('#banner-fade').bjqs({
+            height      : 400,
+            width       : 900,
+            responsive  : true
+          });
+
+        });
+      </script>
+	</body>
+</html>
